@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding-top:0;
+}
+body{
+    background: #000;
+   color:#fff;
+}
+.header{
+    background-image:url("bg.jpg");
+    width: 100%;
+    height:120vh;
+    
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+
+}
+
+nav img{
+    height: 80px;
+    width: 120px;
+    padding-left:30px;
+
+}
+select{
+    background-color: rgba(240, 248, 255, 0);
+     color: white;
+     border-color:white;
+     border-radius: 5px;
+           height: 35px;
+           width: 115px;
+           font-size: 17px;
+           padding-left: 4vh;
+           font-family:Arial, sans-serif;
+           margin:5px;
+}
+
+.SignIn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    width: 90px;
+    font-size: 18px;
+    font-family: Arial,sans-serif;;
+    margin:25px ;
+}
+.feature{
+    background-color: rgba(0, 0, 0, 0.523);
+    background-size: 100%;
+    height: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+padding-bottom: 20px;
+font-family: Arial,sans-serif;
+}
+.p1{
+    color: white;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+    margin-left: 38vh;
+    padding-bottom:19px;
+}
+.p2{
+    color: white;
+    font-size: 19px;
+    font-family:Arial,sans-serif;
+    margin-left: 19vh;
+    
+}
+
+.email{
+    position: relative;
+    bottom: 250px;
+    width: 30%;
+    height: 40px;
+     font-size: 20px; 
+     font-family:Arial,sans-serif;background-color:rgba(0, 0, 0, 0.323);border: 1px solid white;
+     border-radius: 5px;
+     margin-left: 55vh;
+}
+#btn3{
+    position: relative;
+    bottom: 250px;
+
+    width: 17%;
+    height: 44px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family:Arial,sans-serif;
+}
+.deatil{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.page img{
+    position: relative;
+    left: 20%;
+    bottom: 45vh;
+    height: 71vh;
+}
+.para2{
+    margin-left: 5%;
+    margin-top: 16%;
+    font-size: 5vh;
+    font-family: Arial, sans-serif;
+}
+.page video{
+    height:40vh;
+    position: relative;
+    left: 124vh;
+    bottom: 62vh;
+}
+.deatil2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.para3{
+    margin-left: 5%;
+    margin-top: 16%;
+    font-size: 5vh;
+    font-family: Arial, sans-serif;
+}
+.page3{
+    width: 100%;
+    height:100vh;
+  
+}
+.left img{
+    height:400px;
+    position: absolute;
+    bottom: 11vh;
+   
+}
+.p3mbox{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #000;
+    height: 93px;
+    width: 350px;
+    margin-left:20%;
+    margin-top: 50%;
+    position: relative;
+    bottom: 135vh;
+    right: 20vh;
+}
+
+.p3mbox img{
+    height:70px;
+    padding:9px 9px;
+}
+.p3mbox p{
+    padding-left: 90px;
+    position: relative;
+    bottom:70px;
+}
+.right{
+    margin-left: 120vh;
+    position: relative;
+    bottom: 99vh;
+}
+.right h1{
+    font-size: 10vh;
+}
+.right p{
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page4{
+    position: relative;
+    bottom: 40vh;
+}
+.leftp4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightp4{
+    position: relative;
+    left: 30vh;
+    bottom: 30vh;
+}
+.rightp4 img{
+    position: relative;
+    bottom: 115vh;
+    left:65vh;
+    width: 97vh;
+}
+.rightp4 video{
+    width: 60vh;
+    margin-bottom: 74vh;
+    margin-left: 83vh;
+}
+.page5 img{
+    position: relative;
+    bottom: 26vh;
+    height: 70vh;
+}
+.para5{
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 10vh;
+}
+
+.faq{
+    height:110px;
+    padding-left: 12px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    bottom: 150vh;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.fhead{
+    margin: 60px auto;
+    position: relative;
+    width: 100%;
+    
+}
+.fhead li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.fhead li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.fhead .fcontent{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s,padding 0.5s;
+}
+.fhead input[type="radio"]:checked + label + .fcontent{
+    max-height:600px;
+    padding: 30px 20px;
+}
+.fhead input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.faq .email{
+    margin:20px auto 60px;
+    margin-top: 55vh;
+    padding: 15px;
+}
+.faq .btn2{
+    padding:13px;
+    position: relative;
+    bottom: 45vh;
+    left: 7vh;
+    width: 19%;
+    height: 49px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    font-family:Arial,sans-serif;
+
+}
+.faq p{
+    font-size: 16x;
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+    position: relative;
+    top: 40px;
+    padding-right: 50vh;
+
+}
+
+.footer a{
+    color:whitesmoke;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+    text-decoration: underline;
+}
+.language{
+   
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    height: 35px;
+    width:100px;
+}
